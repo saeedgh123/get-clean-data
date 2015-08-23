@@ -5,6 +5,6 @@ The dataset being used is: Human Activity Recognition Using Smartphones
 
 
 
-run_analysis.R contains all the code to perform the analyses described in the 5 steps. They can be launched in RStudio by just importing the file.
+run_analysis.R contains all the code to perform the analyses described in the 5 steps.
 
 The output of the 5th step is called tidy.txt, and uploaded in the course project's form.
