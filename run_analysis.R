@@ -1,8 +1,7 @@
 library(plyr)
 
 # Step 1
-# Merge the training and test sets to create one data set
-###############################################################################
+
 
 x_train <- read.table("train/X_train.txt")
 y_train <- read.table("train/y_train.txt")
@@ -23,7 +22,7 @@ subject_data <- rbind(subject_train, subject_test)
 
 # Step 2
 # Extract only the measurements on the mean and standard deviation for each measurement
-###############################################################################
+
 
 features <- read.table("features.txt")
 
